@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <meta http-equiv="content-language" content="en">
+        <meta name="description" content="Product Manager Home Assignment - task 3">
+
+        <title>
+            Task 3
+        </title>
+
+        <script>
+            //changing the iframe id:
+            window.addEventListener('load', () => document.getElementById("myframe").contentWindow.document.getElementById("mydiv").id = "mydiv2")
+        </script>
+
+    </head>
+
+    <body>
+        <iframe srcdoc="<div id='mydiv'></div>" id="myframe">
+
+        </iframe>
+    </body>
+</html>
